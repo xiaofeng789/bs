@@ -27,7 +27,7 @@ while read line;do
   connectFlag="DOWN"
 
   # Suppress proxychains and nc output
-nc -z -w 1 $line > /dev/null 2>&1
+  proxychains nc -z -w 1 $line > /dev/null 2>&1
   if [ $? -eq 0 ];then
       connectFlag="UP"
   fi
