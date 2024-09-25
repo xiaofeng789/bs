@@ -1,0 +1,11 @@
+pip
+curl
+vim
+proxychains
+u24  pwntools
+git
+-y
+
+1.安装依赖
+2.pwntools（24已经安装完成）
+3.pwndbg、pwngdb
